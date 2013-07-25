@@ -1,2 +1,4 @@
+removed_sources:
+  Perl-Metrics-Simple-0.15.tar.gz: b36d8fc972b5e31b30df10ee3c9c7f411b199b1f
 sources:
-  "Perl-Metrics-Simple-0.15.tar.gz": b36d8fc972b5e31b30df10ee3c9c7f411b199b1f
+  Perl-Metrics-Simple-0.17.tar.gz: 8c0ca797f1b77aa1f0be0d4e628dfc5098334c82
