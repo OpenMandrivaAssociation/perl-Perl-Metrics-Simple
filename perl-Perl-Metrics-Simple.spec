@@ -1,15 +1,15 @@
 %define upstream_name    Perl-Metrics-Simple
-%define upstream_version 0.15
+%define upstream_version 0.17
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.17
+Release:	1
 
 Summary:	Methods analyzing a single file
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Perl/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Perl/Perl-Metrics-Simple-0.17.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Carp)
@@ -67,4 +67,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Wed Aug 25 2010 Jérôme Quelin <jquelin@mandriva.org> 0.150.0-1mdv2011.0
 + Revision: 573089
 - import perl-Perl-Metrics-Simple
+
 
