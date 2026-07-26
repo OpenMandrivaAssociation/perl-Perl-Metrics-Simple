@@ -1,14 +1,12 @@
 %define upstream_name    Perl-Metrics-Simple
-%define upstream_version 0.17
-
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.17
-Release:	3
+Version:	0.17
+Release:	4
 
 Summary:	Methods analyzing a single file
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
+Url:		https://metacpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Perl/Perl-Metrics-Simple-0.17.tar.gz
 
 BuildRequires:	make
@@ -41,7 +39,7 @@ the subroutines and the "main" portion of the code.
 Installs a script called *countperl*.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
